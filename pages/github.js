@@ -1,10 +1,10 @@
 import Layout from '../components/Layout';
 const Github = ({ user }) => {
   return (
-    <Layout>
+    <Layout footer={false}>
       <div className="row">
         <div className="col-md-4 offset-md-4">
-          <div className="card card-body text-center">
+          <div className="card card-body text-center bg-dark text-light">
             <h1>{user.login}</h1>
             <img
               src="https://avatars.githubusercontent.com/u/75632114?v=4"
@@ -13,14 +13,14 @@ const Github = ({ user }) => {
             <a
               href={user.blog}
               target="_blanck"
-              className="btn btn-outline-secondary my-2"
+              className="btn  btn-light my-2"
             >
               My Blog
             </a>
             <a
               href={user.html_url}
               target="_blanck"
-              className="btn btn-outline-secondary my-2"
+              className="btn btn-light my-2"
             >
               Go to github
             </a>

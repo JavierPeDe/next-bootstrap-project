@@ -31,9 +31,6 @@ const Navbar = () => {
                 Github
               </a>
             </Link>
-            <a className="nav-link " href="#">
-              Pricing
-            </a>
           </div>
         </div>
       </div>

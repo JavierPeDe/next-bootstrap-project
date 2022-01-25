@@ -69,3 +69,27 @@ export const projects = [
     image: 'portfolio6.jpeg',
   },
 ];
+
+export const articles = [
+  {
+    title: 'React',
+    imgURL:
+      'https://bardcrack.com/assets/img/courses/ZBLg0s9R1A/0223b00983822436edfa72b97c9baad1aba07504.png',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquidquia quam sequi error nemo? Magnam iusto quo consequatur quia magnibeatae aliquid laborum, delectus, a odio, alias officiis debitisullam! lorem',
+  },
+  {
+    title: 'Next.js',
+    imgURL:
+      'https://ichi.pro/assets/images/max/724/1*Hva7hcsFWulFUPhrEWui1A.jpeg',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquidquia quam sequi error nemo? Magnam iusto quo consequatur quia magnibeatae aliquid laborum, delectus, a odio, alias officiis debitisullam! lorem',
+  },
+  {
+    title: 'Tailwind CSS',
+    imgURL:
+      'https://www.atsistemas.com/dam/jcr:20b575da-1767-43dc-b18f-4f2a9f722877/1375-775-tailwind-css.png',
+    description:
+      'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquidquia quam sequi error nemo? Magnam iusto quo consequatur quia magnibeatae aliquid laborum, delectus, a odio, alias officiis debitisullam! lorem',
+  },
+];

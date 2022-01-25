@@ -4,9 +4,9 @@
 }
 .overflow .card-img-top {
   transform: scale(1);
-  transition: all 0.2 ease-in-out;
+  transition: all 0.8 ease-in-out;
 }
 
 .overflow .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1.5);
 }
