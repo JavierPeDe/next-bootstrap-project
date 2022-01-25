@@ -1,0 +1,43 @@
+import Link from 'next/link';
+const Navbar = () => {
+  return (
+    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div className="container">
+        <Link href="/">
+          <a className="navbar-brand" href="#">
+            NextJS
+          </a>
+        </Link>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+        <div className="collapse navbar-collapse " id="navbarNavAltMarkup">
+          <div className="navbar-nav ms-auto">
+            <Link href="/blog">
+              <a className="nav-link active" aria-current="page">
+                Blog
+              </a>
+            </Link>
+            <Link href="/github">
+              <a className="nav-link" href="#">
+                Github
+              </a>
+            </Link>
+            <a className="nav-link " href="#">
+              Pricing
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  );
+};
+export default Navbar;
